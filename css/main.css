@@ -1,0 +1,93 @@
+/*
+DEVELOPER JOHN VISITACION IS117 S002 Spring 2021
+
+
+universal for all pages
+*/
+
+
+html{
+    font-size: 100%;
+    width: 99%;
+    max-width: 960px;
+    margin: 0 auto;
+    border: 3px solid #7abaff;
+    background-color: #fffded;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+p{
+    text-align: center;
+}
+
+.card-group{
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+
+
+/*
+This is for the contact page
+*/
+.contacts{
+    position: center;
+    text-align: center;
+    width: 15%;
+    margin: 0 auto;
+    border: 10px #7591ff;
+    
+}
+
+.form-group{
+    text-align: center;
+    position: center;
+    float: none;
+}
+
+
+
+/*
+for the building page
+*/
+
+
+
+
+/*
+for the parts page
+*/
+
+/*
+for the about page
+*/
+
+#aboutContent{
+    text-align: center;
+    margin: 30px ;
+}
+
+.rotate45{
+    -webkit-transform: rotate(90deg);
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+

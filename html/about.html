@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- DEVELOPER JOHN VISITACION IS117 S002 SpRING 2021 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Page</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link href="../css/main.css" rel="stylesheet">
+</head>
+<body>
+<!-- NAV BAR starts here -->
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"><img src="../images/uwuThonk.png" class="logo"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <!-- Dropdown for PC Parts-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown">
+                            Parts of a PC
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="PCPARTSPAGES/CPU.html">CPU</a>
+                            <a class="dropdown-item" href="PCPARTSPAGES/MOBO.html">MOBO</a>
+                            <a class="dropdown-item" href="PCPARTSPAGES/STORAGE.html">Storage</a>
+                            <a class="dropdown-item" href="PCPARTSPAGES/GPU.html">GPU</a>
+                            <a class="dropdown-item" href="PCPARTSPAGES/PSU.html">PSU</a>
+                            <a class="dropdown-item" href="PCPARTSPAGES/CASE.html">Case</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="BuildPC.html">How to Build PC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </nav>
+
+
+    </div> <!-- Nav bar ends here -->
+    <!-- this is for the content for the about page-->
+    <div class="row">
+        <h2 class="col-12" style="font-size: 24px; text-align: center">
+            About Building a PC
+        </h2>
+
+        <div class="jumbotron jumbotron-fluid">
+            <p class="lead" id="aboutContent">
+                Building a PC is thought to be a daunting task. People tend to be frightened at the sight of handling components of a computer that
+                would cost a lot of money. Then there is a knowledge of knowing what parts to purchase. Lastly, there is the need to know about how to put all the
+                parts together without breaking anything. This site was made with this thought in mind. Hopeful, you will find this website giving you confidence
+                to build your own computer. It is stressful, however, it will leave you with a new skill and a new appreciation for the technology that
+                allows us to operate on a day to day scale.
+            </p>
+        </div>
+
+        <!-- Building cards for the website -->
+        <div class="card-group" id="aboutCards" style="align-content: center">
+
+            <div class="card">
+                <div class="card-body">
+                    <h6>Need to learn about PC Parts?</h6>
+                    <p class="card-text">PC Parts can be confusing, here is a break down!</p>
+                    <a href="PCPARTSPAGES/CPU.html">Click Here!</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h6>Don't know how to build your PC?</h6>
+                    <p class="card-text" style="text-align: center">When building a pc, there are some tips and tricks for a easier time!</p>
+                    <a href="BuildPC.html" style="text-align: center">Click Here!</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h6>Have more questions?</h6>
+                    <a href="Contact.html" style="text-align: center">Click Here!</a>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted"> &copy; JOHN VISITACION IS117 S002 Spring 2021</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>
